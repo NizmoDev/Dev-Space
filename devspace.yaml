@@ -1,0 +1,29 @@
+version: v2beta1
+
+name: devspace-demo
+
+images:
+  app:
+    image: devspace-demo
+    dockerfile: ./Dockerfile
+
+deployments:
+  app:
+    kubectl:
+      manifests:
+        - deployment.yaml
+
+dev:
+  app:
+    imageSelector: devspace-demo
+
+    ports:
+      - port: "3000:3000"
+
+    sync:
+      - path: ./:/app
+        excludePaths:
+          - node_modules
+
+    terminal:
+      command: npm start  

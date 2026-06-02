@@ -1,0 +1,68 @@
+{"level":"info","msg":"Inject devspacehelper...","time":"2026-06-02T11:53:14+02:00"}
+{"level":"info","msg":"Start syncing","time":"2026-06-02T11:53:20+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2026-06-02T11:53:20+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2026-06-02T11:53:20+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T11:53:38+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.22 KB)","time":"2026-06-02T11:53:38+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T11:53:39+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T11:54:27+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.22 KB)","time":"2026-06-02T11:54:27+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T11:54:27+02:00"}
+{"level":"info","msg":"Downstream - Download 390 file(s) (Uncompressed: ~1454.73 KB)","time":"2026-06-02T11:57:21+02:00"}
+{"level":"info","msg":"Downstream - Successfully processed 390 change(s)","time":"2026-06-02T11:57:22+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'package.json'","time":"2026-06-02T11:57:44+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.23 KB)","time":"2026-06-02T11:57:44+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T11:57:44+02:00"}
+{"level":"info","msg":"Inject devspacehelper...","time":"2026-06-02T11:59:23+02:00"}
+{"level":"info","msg":"Start syncing","time":"2026-06-02T11:59:27+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2026-06-02T11:59:28+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2026-06-02T11:59:28+02:00"}
+{"level":"info","msg":"Inject devspacehelper...","time":"2026-06-02T13:41:56+02:00"}
+{"level":"info","msg":"Start syncing","time":"2026-06-02T13:42:01+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2026-06-02T13:42:01+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'devspace.yaml'","time":"2026-06-02T13:42:03+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'package.json'","time":"2026-06-02T13:42:03+02:00"}
+{"level":"info","msg":"Upstream - Upload 2 create change(s) (Uncompressed ~0.59 KB)","time":"2026-06-02T13:42:03+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 2 change(s)","time":"2026-06-02T13:42:03+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2026-06-02T13:42:04+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T13:43:16+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.23 KB)","time":"2026-06-02T13:43:16+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T13:43:16+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T13:48:08+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.27 KB)","time":"2026-06-02T13:48:08+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T13:48:08+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T13:49:13+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.19 KB)","time":"2026-06-02T13:49:13+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T13:49:13+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T13:49:34+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.27 KB)","time":"2026-06-02T13:49:34+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T13:49:34+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'devspace.yaml'","time":"2026-06-02T13:51:55+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.41 KB)","time":"2026-06-02T13:51:55+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T13:51:55+02:00"}
+{"level":"info","msg":"Inject devspacehelper...","time":"2026-06-02T13:54:57+02:00"}
+{"level":"info","msg":"Start syncing","time":"2026-06-02T13:55:03+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2026-06-02T13:55:03+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2026-06-02T13:55:03+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T14:01:35+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.21 KB)","time":"2026-06-02T14:01:35+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T14:01:35+02:00"}
+{"level":"info","msg":"Inject devspacehelper...","time":"2026-06-02T14:04:14+02:00"}
+{"level":"info","msg":"Start syncing","time":"2026-06-02T14:04:21+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2026-06-02T14:04:21+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2026-06-02T14:04:22+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T14:05:56+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.22 KB)","time":"2026-06-02T14:05:56+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T14:05:56+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T14:13:32+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.26 KB)","time":"2026-06-02T14:13:32+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T14:13:32+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T14:13:45+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.29 KB)","time":"2026-06-02T14:13:45+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T14:13:45+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'app.js'","time":"2026-06-02T14:16:05+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.28 KB)","time":"2026-06-02T14:16:05+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T14:16:05+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'devspace.yaml'","time":"2026-06-02T14:37:37+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.41 KB)","time":"2026-06-02T14:37:37+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2026-06-02T14:37:37+02:00"}

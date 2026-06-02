@@ -1,0 +1,11 @@
+varsEncrypted: true
+images:
+    app:
+        imageConfigHash: ad0aa0425bb2c6256ba5657aca496d43e572803a676e9162b4d1b192138a3cc6
+        dockerfileHash: 2100622a7fc8c1cea2a0af9b4d15b9c2a8172308afe7aa545462892453ae96c2
+        contextHash: 3d07239150b58744796bfd9f5b02c91fbaab90b7f2c62df2a36c107b4498d745
+        imageName: devspace-demo
+        tag: ufbZXOT
+lastContext:
+    namespace: default
+    context: kind-dev

@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: devspace-demo
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: devspace-demo
+
+  template:
+    metadata:
+      labels:
+        app: devspace-demo
+
+    spec:
+      containers:
+        - name: app
+          image: devspace-demo
+          imagePullPolicy: Never
+
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: devspace-demo
+
+spec:
+  selector:
+    app: devspace-demo
+
+  ports:
+    - port: 80
+      targetPort: 3000
