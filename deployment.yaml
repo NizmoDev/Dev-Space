@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: devspace-demo
-
+ 
   template:
     metadata:
       labels:
