@@ -2,7 +2,7 @@
 
 Ce projet permet de développer une application JavaScript (Node.js) directement dans un cluster Kubernetes grâce à DevSpace.
 
-DevSpace synchronise automatiquement les fichiers locaux avec le container Kubernetes et permet un workflow de développement rapide avec hot reload via nodemon.
+DevSpace synchronise automatiquement les fichiers locaux avec le container Kubernetes et permet un workflow de développement rapide avec hot reload via nodemon. 
 
 ---
 
