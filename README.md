@@ -1,17 +1,17 @@
 # JavaScript DevSpace Kubernetes Project
 
-Ce projet permet de développer une application JavaScript (Node.js) directement dans un cluster Kubernetes grâce à DevSpace.
+This project allows you to develop a JavaScript (Node.js) application directly in a Kubernetes cluster with DevSpace.
 
-DevSpace synchronise automatiquement les fichiers locaux avec le container Kubernetes et permet un workflow de développement rapide avec hot reload via nodemon. 
+DevSpace automatically syncs local files with the Kubernetes container and enables a fast development workflow with hot reload through nodemon.
 
 ---
 
-## 🚀 Prérequis
+## 🚀 Prerequisites
 
-Avant de commencer, assure-toi d’avoir installé :
+Before you start, make sure you have installed:
 
 - Docker
-- Kubernetes (kubectl configuré)
+- Kubernetes (`kubectl` configured)
 - Kind
 - DevSpace
 - Node.js
@@ -20,7 +20,7 @@ Avant de commencer, assure-toi d’avoir installé :
 
 ## 📦 Installation
 
-### 1. Cloner le projet
+### 1. Clone the project
 
 ```bash
 git clone https://github.com/NizmoDev/Dev-Space.git
@@ -32,7 +32,7 @@ cd Dev-Space
 
 ---
 
-### 2. Créer le cluster Kubernetes local
+### 2. Create the local Kubernetes cluster
 
 ```bash
 kind create cluster --name dev
@@ -40,7 +40,7 @@ kind create cluster --name dev
 
 ---
 
-### 3. Vérifier le cluster
+### 3. Check the cluster
 
 ```bash
 kubectl cluster-info
@@ -52,26 +52,26 @@ kubectl get nodes
 
 ---
 
-## ⚙️ Lancer le projet avec DevSpace
+## ⚙️ Run the project with DevSpace
 
-### 1. Démarrer le mode développement
+### 1. Start development mode
 
 ```bash
 devspace dev
 ```
 
-DevSpace va automatiquement :
+DevSpace will automatically:
 
-- Build l’image Docker
-- Déployer les manifests Kubernetes
-- Créer le port forwarding
-- Synchroniser les fichiers locaux avec le pod Kubernetes
+- Build the Docker image
+- Deploy the Kubernetes manifests
+- Create port forwarding
+- Sync local files with the Kubernetes pod
 
 ---
 
-## 🌐 Accès à l’application
+## 🌐 Access the application
 
-Ouvrir dans le navigateur :
+Open in the browser:
 
 ```text
 http://localhost:3000
@@ -79,36 +79,36 @@ http://localhost:3000
 
 ---
 
-## 🔄 Workflow de développement
+## 🔄 Development workflow
 
-Quand un fichier est modifié :
+When a file is modified:
 
-1. DevSpace synchronise le fichier dans le container Kubernetes
-2. Nodemon détecte la modification
-3. Node.js redémarre automatiquement
-4. Le navigateur affiche la nouvelle version
+1. DevSpace syncs the file into the Kubernetes container
+2. Nodemon detects the modification
+3. Node.js restarts automatically
+4. The browser displays the new version
 
 ---
 
-## 🧠 Fonctionnement réel
+## 🧠 Real behavior
 
 ```text
-Machine locale
+Local machine
     ↓
 DevSpace sync
     ↓
-Pod Kubernetes
+Kubernetes pod
     ↓
 Node.js + Nodemon
     ↓
 localhost:3000 (port-forward)
 ```
 
-👉 L’application tourne dans Kubernetes, pas directement sur la machine locale.
+👉 The application runs in Kubernetes, not directly on the local machine.
 
 ---
 
-## 🔍 Vérifier les pods Kubernetes
+## 🔍 Check Kubernetes pods
 
 ```bash
 kubectl get pods
@@ -116,7 +116,7 @@ kubectl get pods
 
 ---
 
-## 🔍 Vérifier les services
+## 🔍 Check services
 
 ```bash
 kubectl get svc
@@ -124,7 +124,7 @@ kubectl get svc
 
 ---
 
-## 🔍 Entrer dans le container
+## 🔍 Enter the container
 
 ```bash
 devspace enter
@@ -132,7 +132,7 @@ devspace enter
 
 ---
 
-## 🔍 Voir les logs
+## 🔍 View logs
 
 ```bash
 devspace logs
@@ -140,9 +140,9 @@ devspace logs
 
 ---
 
-## 🔍 Vérifier la synchronisation des fichiers
+## 🔍 Check file synchronization
 
-Dans le container :
+Inside the container:
 
 ```bash
 cat app.js
@@ -150,7 +150,7 @@ cat app.js
 
 ---
 
-## 🛑 Arrêter DevSpace
+## 🛑 Stop DevSpace
 
 ```bash
 CTRL + C
@@ -158,7 +158,7 @@ CTRL + C
 
 ---
 
-## 🧹 Supprimer les ressources Kubernetes
+## 🧹 Delete Kubernetes resources
 
 ```bash
 devspace purge
@@ -166,7 +166,7 @@ devspace purge
 
 ---
 
-## ❌ Supprimer le cluster Kind
+## ❌ Delete the Kind cluster
 
 ```bash
 kind delete cluster --name dev
@@ -174,16 +174,16 @@ kind delete cluster --name dev
 
 ---
 
-## 📌 Notes importantes
+## 📌 Important notes
 
-- DevSpace ne fait PAS le hot reload
-- Nodemon redémarre Node.js
-- DevSpace synchronise uniquement les fichiers
-- Kubernetes ne redémarre pas les pods pendant les modifications simples
+- DevSpace does NOT handle hot reload
+- Nodemon restarts Node.js
+- DevSpace only syncs files
+- Kubernetes does not restart pods during simple modifications
 
 ---
 
-## 🧪 Commandes utiles
+## 🧪 Useful commands
 
 ```bash
 kubectl get pods
